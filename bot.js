@@ -28,29 +28,7 @@ client.user.setGame(`Best shop|p'AG!'`,"http://twitch.tv/S-F")
   console.log('')
 });
 
-console.log("Welcome Again !");
-client.on("guildMemberAdd", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(`**
-      حياك الله ي بعد راسي
-       خش بتنورنا فعاليات وكل شيء حلو موجود !
-        ي بعد عيني الرابط تحت
 
-                                 [ https://discord.gg/6Gg666U ] **`)
-}).catch(console.error)
-})
-
-client.on("guildMemberRemove", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(`**
-      حياك الله ي بعد راسي
-       خش بتنورنا فعاليات وكل شيء حلو موجود !
-        ي بعد عيني الرابط تحت
-         
-
-                                 [ https://discord.gg/6Gg666U ] **`)
-}).catch(console.error)
-})
 
 
 client.on('message',message =>{
