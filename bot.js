@@ -4,7 +4,7 @@ const prefix = 'AG!'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Best shop|p'AG!'`,"http://twitch.tv/S-F")
+client.user.setGame(`AG bot|AG!`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
