@@ -1071,7 +1071,7 @@ __~~WeAreOne~~__ By: ! ＭＯ３ＡＺ ⊗#1599
              Admin Commands
 ╚[❖════════════❖]╝
 ❖ AG!bc <message> ➾ message all members in server
-❖ AG!bcnormal <message> --> with out server name embed
+❖ AG!c <message> --> with out server name embed
 ❖ AG!mute <user> <time> <reason> ➾ mute from server
 ❖ AG!unmute <user> ➾ unmute from server
 ❖ AG!kick <user> <reason> ➾ kick from server
@@ -1409,7 +1409,7 @@ client.on("message", message => {
         if (message.guild) {
        let embed = new Discord.RichEmbed()
         let args = message.content.split(' ').slice(1).join(' ');
-    if(message.content.split(' ')[0] == prefix + 'bcnormal') {
+    if(message.content.split(' ')[0] == prefix + 'c') {
         if (!args[1]) {
     message.channel.send("**bc <message>**");
     return;
